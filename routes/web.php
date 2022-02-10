@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     return view('home');
-});
+})->name('homepage');
 
 Route::get('/comics',function(){
     $comics_array = config('comics');
@@ -26,4 +26,21 @@ Route::get('/comics',function(){
     ];
     
     return view('comics',$data);
-});
+})->name('comics');
+
+Route::get('/singleComic/{id}',function($id){
+    $comics_array = config('comics');
+    $comic_show = false;
+
+    foreach($comics_array as $comic){
+        if($comic['id'] == $id){
+            $comic_show = $comic;
+        }
+    }
+
+    $data = [
+        'comic_info' => $comic_show
+    ];
+
+    return view('singleComic',$data);
+})->name('comic');
