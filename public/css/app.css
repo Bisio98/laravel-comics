@@ -42,6 +42,24 @@
   color: #0282F9;
 }
 
+.jumbotron {
+  height: 500px;
+  background-image: url(/images/jumbotron.jpg);
+}
+
+.top-footer {
+  height: 100px;
+  background-color: #0282F9;
+}
+
+.top-footer .container {
+  display: flex;
+}
+
+.top-footer .container img {
+  height: 50px;
+}
+
 .main-footer {
   background-color: #303030;
 }
@@ -132,5 +150,36 @@
 .main-footer .bottom li img {
   height: 30px;
   width: auto;
+}
+
+.main-section {
+  background-color: #1C1C1C;
+}
+
+.main-section .elements_name {
+  position: relative;
+  right: 20px;
+  bottom: 35px;
+  padding: 15px 30px;
+  background-color: #0282F9;
+  color: white;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.main-section .comics_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-section .comics_container .single_comic {
+  width: 16.6666666667%;
+  display: inline-block;
+}
+
+.main-section .comics_container .single_comic h3 {
+  color: white;
+  line-height: 30px;
+  margin-bottom: 20px;
 }
 

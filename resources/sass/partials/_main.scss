@@ -1,0 +1,31 @@
+.main-section{
+    background-color: $main_grey;
+
+    .elements_name{
+        position: relative;
+        right: 20px;
+        bottom: 35px;
+        padding: 15px 30px;
+        background-color: $main_blue;
+        color: white;
+        display: inline-block;
+        font-size: 30px;
+    }
+
+    .comics_container{
+        display: flex;
+        flex-wrap: wrap;
+
+        .single_comic{
+            width: calc(100% / 6);
+            display: inline-block;
+
+            h3{
+                color: white;
+                line-height: 30px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+}

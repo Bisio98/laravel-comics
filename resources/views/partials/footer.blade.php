@@ -1,4 +1,20 @@
 <?php
+    $linksName = [
+        'DIGITAL COMICS',
+        'DC MERCHANDISE',
+        'SUBSCRIPTION',
+        'COMIC SHOP LOCATOR',
+        'DC POWER VISA'
+    ];
+
+    $linksImg = [
+        'images/buy-comics-digital-comics.png',
+        'images/buy-comics-merchandise.png',
+        'images/buy-comics-subscriptions.png',
+        'images/buy-comics-shop-locator.png',
+        'images/buy-dc-power-visa.svg'
+    ];
+
     $dc_comics = [
         'Characters',
         'Comics',
@@ -37,7 +53,12 @@
 ];
 
 ?>
-
+<div class="top-footer">
+    <div class=" container">
+        <div class="single_element">
+        </div>
+    </div>
+</div>
 
 <div class="main-footer">
 
