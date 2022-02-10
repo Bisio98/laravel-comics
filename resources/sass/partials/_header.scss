@@ -1,0 +1,32 @@
+.main-header{
+    .container{
+        display: flex;
+        justify-content: space-between ;
+        line-height: 100px;
+        align-items: center;
+        height: 130px;
+    }
+    img{
+        height: 70px;
+        width: 70px;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        
+        li{
+        margin: 0px 10px;
+        font-weight: 00;
+        cursor: pointer;
+        
+            &:hover{
+                color: $main_blue;
+            }
+        }
+    }
+   
+    .active{
+        border-bottom: 3px solid $main_blue;
+        color: $main_blue;
+    }
+}

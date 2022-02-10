@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.main-header .container {
+  display: flex;
+  justify-content: space-between;
+  line-height: 100px;
+  align-items: center;
+  height: 130px;
+}
+
+.main-header img {
+  height: 70px;
+  width: 70px;
+}
+
+.main-header ul {
+  list-style: none;
+  display: flex;
+}
+
+.main-header ul li {
+  margin: 0px 10px;
+  font-weight: 0;
+  cursor: pointer;
+}
+
+.main-header ul li:hover {
+  color: #0282F9;
+}
+
+.main-header .active {
+  border-bottom: 3px solid #0282F9;
+  color: #0282F9;
+}
+
+.main-footer {
+  background-color: #303030;
+}
+
+.main-footer ul {
+  list-style: none;
+}
+
+.main-footer .top {
+  background-image: url(/images/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.main-footer .top .container {
+  position: relative;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.main-footer .top .links {
+  display: flex;
+  margin-top: 20px;
+  color: gray;
+  line-height: 20px;
+}
+
+.main-footer .top .logo_bot img {
+  position: relative;
+  bottom: 50px;
+}
+
+.main-footer .top .logo_bot img img {
+  height: 400px;
+  width: auto;
+}
+
+.main-footer .top .name_col {
+  font-size: 22px;
+  line-height: 30px;
+  color: white;
+  font-weight: 800;
+}
+
+.main-footer .top ul {
+  margin-right: 20px;
+}
+
+.main-footer .top ul li {
+  line-height: 25px;
+}
+
+.main-footer .bottom .container {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  height: 150px;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.main-footer .bottom button {
+  padding: 15px;
+  color: white;
+  font-weight: 700;
+  background-color: #303030;
+  border: 2px solid #0C7CEC;
+}
+
+.main-footer .bottom ul {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer .bottom li {
+  margin: 0 10px;
+  color: #0C7CEC;
+  font-size: 25px;
+  font-weight: 700;
+  display: flex;
+}
+
+.main-footer .bottom li img {
+  height: 30px;
+  width: auto;
+}
+
